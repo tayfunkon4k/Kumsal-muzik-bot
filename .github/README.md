@@ -6,7 +6,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://envs.sh/Lx9.jpg">
+  <img src="(https://envs.sh/obY.jpg)">
 </p>
 
 <p align="center">
