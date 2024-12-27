@@ -6,7 +6,7 @@
 </h2>
 
 <p align="center">
-  <img src="(https://envs.sh/obY.jpg)">
+  <img src="(https://ezgif.com/webp-to-jpg/ezgif-5-a56a5448b0.jpg)">
 </p>
 
 <p align="center">
