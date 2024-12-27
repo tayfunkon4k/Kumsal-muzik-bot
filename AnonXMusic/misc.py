@@ -39,7 +39,7 @@ XCB = [
 def dbb():
     global db
     db = {}
-    LOGGER(__name__).info(f"Local Database Initialized.")
+    LOGGER(__name__).info(f"Yerel Veritabanı Başlatıldı.")
 
 
 async def sudo():
@@ -58,7 +58,7 @@ async def sudo():
     if sudoers:
         for user_id in sudoers:
             SUDOERS.add(user_id)
-    LOGGER(__name__).info(f"Sudoers Loaded.")
+    LOGGER(__name__).info(f"Sudoer'lar Yüklendi.")
 
 
 def heroku():
@@ -71,5 +71,5 @@ def heroku():
                 LOGGER(__name__).info(f"Heroku App Configured")
             except BaseException:
                 LOGGER(__name__).warning(
-                    f"Please make sure your Heroku API Key and Your App name are configured correctly in the heroku."
+                    f"Lütfen Heroku API Anahtarınızın ve Uygulama adınızın heroku'da doğru şekilde yapılandırıldığından emin olun.."
                 )
